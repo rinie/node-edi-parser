@@ -1,0 +1,33 @@
+{
+  "name": "edi",
+  "version": "0.0.1",
+  "description": "EDI parser with simple api, full of options and tested against large datasets. Based on node-csv-parser",
+  "author": "Rinie Kervel <rinie.kervel@gmail.com>",
+  "contributors": [
+    "David Worms <david@adaltas.com>",
+    "Will White <https://github.com/willwhite>",
+    "Justin Latimer <https://github.com/justinlatimer>"
+  ],
+  "engines": {
+    "node": ">= 0.1.90"
+  },
+  "keywords": [
+    "parser",
+    "edi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rinie/node-edi-parser.git"
+  },
+  "devDependencies": {
+    "coffee-script": "latest",
+    "mocha": "latest",
+    "should": "latest"
+  },
+  "dependencies": {},
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "make test"
+  },
+  "homepage": "https://github.com/rinie/node-edi-parser"
+}
